@@ -8,7 +8,7 @@ A `shell.nix` is also available
 
 # Difference with the original
 
-You must specify the following import for ` lib_carotte` instead of the one provided in `carotte.py` README:
+You must specify the following import for ` lib_carotte` instead of the one provided in `carotte.py` tutorial:
 
 ```
 from carottepy.lib_carotte import *
