@@ -2,7 +2,7 @@
 # carotte.py by Twal, hbens & more
 
 '''Simple clock divider example'''
-from lib_carotte import *
+from carottepy.lib_carotte import *
 
 def main() -> None:
     '''Entry point of this example'''
