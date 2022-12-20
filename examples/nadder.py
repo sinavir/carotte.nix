@@ -4,7 +4,7 @@
 '''Simple n-adder example'''
 
 import functools
-from carottepy.lib_carotte import *
+from lib_carotte import *
 from examples import fulladder
 
 def adder(a: Variable, b: Variable, c_in: Variable, i: int = None) -> typing.Tuple[Variable, Variable]:

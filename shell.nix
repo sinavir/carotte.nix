@@ -1,8 +1,6 @@
-{ pkgs ? import ./nix {} }:
-let
-  carotte = import ./. { inherit pkgs; };
-in
-pkgs.mkShell {
+{ pkgs ? import ./nix { } }:
+let carottepy = import ./. { inherit pkgs; };
+in pkgs.mkShell {
   name = "carotte.py";
-  packages = [ carotte.carottepy ];
+  packages = [ carottepy  ];
 }

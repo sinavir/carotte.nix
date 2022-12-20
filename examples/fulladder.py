@@ -3,7 +3,7 @@
 
 '''Simple fulladder example'''
 
-from carottepy.lib_carotte import *
+from lib_carotte import *
 
 def full_adder(a: Variable, b: Variable, c: Variable) -> typing.Tuple[Variable, Variable]:
     '''1-bit full adder implementation'''

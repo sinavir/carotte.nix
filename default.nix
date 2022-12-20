@@ -1,4 +1,4 @@
-{ pkgs ? import ./nix {}  }:
+{ pkgs ? import ./nix {} }:
 let
   pyPkgs = pkgs.python39Packages;
   colored-traceback = pyPkgs.colored-traceback.overrideAttrs (old: {
