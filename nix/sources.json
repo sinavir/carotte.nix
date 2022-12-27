@@ -1,14 +1,14 @@
 {
     "carotte.py": {
-        "branch": "main",
+        "branch": "assignhooks_patch_more_modules",
         "description": "Simple HDL shallowly embedded in Python, for the \"Systèmes numériques\" course at ENS Paris",
         "homepage": null,
-        "owner": "TWal",
+        "owner": "sinavir",
         "repo": "carotte.py",
-        "rev": "d6e82696e0027e33fa44303385f3446cb71145cd",
-        "sha256": "102mbzqy0i34dxsw07ppr4jr4shx624wgp1c9nqmc7sxm7f9l6i6",
+        "rev": "918517a1fa4aba97380677b2c7a0f39052c364cf",
+        "sha256": "0kzcrrbldlv5qh84j4dp2bkf6k65byv17n8k181i5hpxr4cg6q5s",
         "type": "tarball",
-        "url": "https://github.com/TWal/carotte.py/archive/d6e82696e0027e33fa44303385f3446cb71145cd.tar.gz",
+        "url": "https://github.com/sinavir/carotte.py/archive/918517a1fa4aba97380677b2c7a0f39052c364cf.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "01c02c84d3f1536c695a2ec3ddb66b8a21be152b",
-        "sha256": "14x82323fvxbdr338l7i6skifiw78ym568nccxlfg71h5h3kwh3m",
+        "rev": "b139e44d78c36c69bcbb825b20dbfa51e7738347",
+        "sha256": "1i3a66h4wix9vs9ana4qbds0va6s81bbdzgq2hszndnd83bzzphq",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/01c02c84d3f1536c695a2ec3ddb66b8a21be152b.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/b139e44d78c36c69bcbb825b20dbfa51e7738347.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

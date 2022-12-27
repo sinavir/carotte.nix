@@ -1,13 +1,16 @@
 diff --git a/carotte.py b/carotte.py
-index 1ab2248..a1dbfad 100755
+index 5b028c7..1971562 100755
 --- a/carotte.py
 +++ b/carotte.py
-@@ -22,7 +22,7 @@ try:
+@@ -22,9 +22,9 @@ try:
+     #assignhooks.instrument.debug = True
      #assignhooks.patch.debug = True
      #assignhooks.transformer.debug = True
- 
 -    import alt_transformer
 +    from . import alt_transformer
      assignhooks.transformer.AssignTransformer.visit_Assign = alt_transformer.visit_Assign
+-    import alt_instrument
++    from . import alt_instrument
  except ModuleNotFoundError:
      print("Warning: Install module 'assignhooks' for better variable names", file=sys.stderr)
+     assignhooks = None
