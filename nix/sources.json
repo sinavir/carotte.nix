@@ -5,10 +5,10 @@
         "homepage": null,
         "owner": "sinavir",
         "repo": "carotte.py",
-        "rev": "14e9a3053423c1a62c3bf49c22dd25f48a13fbdc",
-        "sha256": "1xkhkfwpdkbqca5s1hfdabpdndjfgcc0zkj70rlvqqa17cqmf4fw",
+        "rev": "8ddd4548a6718fb5dffe29e73aa2086fbb18855a",
+        "sha256": "0izsws05n25n0463fnml3xkd1247r9jbx4f7q7fcgna9226dm64r",
         "type": "tarball",
-        "url": "https://github.com/sinavir/carotte.py/archive/14e9a3053423c1a62c3bf49c22dd25f48a13fbdc.tar.gz",
+        "url": "https://github.com/sinavir/carotte.py/archive/8ddd4548a6718fb5dffe29e73aa2086fbb18855a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
