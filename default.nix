@@ -1,6 +1,6 @@
 { pkgs ? import ./nix {} }:
 let
-  pyPkgs = pkgs.python39Packages;
+  pyPkgs = pkgs.python310Packages;
   colored-traceback = pyPkgs.colored-traceback.overrideAttrs (old: {
     buildInputs = []; 
     propagatedBuildInputs = old.buildInputs;
