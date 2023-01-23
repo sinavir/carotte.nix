@@ -1,8 +1,8 @@
-{ buildPythonPackage, colorama, colored-traceback, assignhooks }:
+{ setuptoolsBuildHook, stdenv, buildPythonPackage, colorama, colored-traceback, assignhooks }:
 let 
   setup = ./setup.py;
 in
-buildPythonPackage {
+buildPythonPackage rec {
   pname = "carotte.py";
   version = "1.0.2";
   src = (import ./nix/sources.nix)."carotte.py";
@@ -16,4 +16,14 @@ buildPythonPackage {
   '';
   patches = [ ./carotte.patch ];
   propagatedBuildInputs = [ colorama colored-traceback assignhooks ];
+  wheel = stdenv.mkDerivation {
+    pname = "carotte.py-wheel";
+    inherit src version preConfigure propagatedBuildInputs patches;
+    buildInputs = [ setuptoolsBuildHook ];
+    installPhase = ''
+      mkdir -p $out
+      mv dist/* $out/
+      '';
+  };
+
 }
